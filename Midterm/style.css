@@ -1,0 +1,221 @@
+/* Contents - 
+Font
+Clearfix
+Universal
+Wrapper
+Body
+Header
+Banner
+Content
+Img
+Main
+Design 
+Social
+Footer
+Button
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* font */
+
+.clearfix {
+    clear: both;
+}
+
+/* clearfix */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* universal */
+
+#wrapper {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+/* wrapper */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+
+}
+
+/* body */
+
+header {
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    z-index: 1;
+}
+
+header .logo {
+    float: left;
+    color: #4f6ae6;
+    font-size: 30px;
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+/* header */
+
+.banner {
+    background-image: url(images/banner.jpg);
+    width: 100%;
+    height: 40vh;
+
+}
+
+.banner-content {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+
+.banner-content h1 {
+    color: #4f6ae6;
+    font-size: 45px;
+}
+
+.banner-content a {
+    padding-top: 10px;
+}
+
+/* banner */
+
+.content-left {
+    float: left;
+    width: 60%;
+}
+
+.content-right {
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+
+/* content */
+
+.img-left {
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.img-left img {
+    width: 100%;
+}
+
+.img-right {
+    float: right;
+    width: 30%;
+}
+
+.img-right img {
+    width: 100%;
+}
+
+/* img */
+
+main {
+    padding-top: 20px;
+}
+
+main a {
+    background-color: #4f6ae6;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
+    border-radius: 30px;
+    margin: 5% 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+main h1 {
+    color: #4f6ae6;
+}
+
+/* main */
+
+.design {
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 0 20px 40px #8d9bdf7d;
+}
+
+/* design */
+
+.social {
+    width: 22%;
+    min-height: 200px;
+    float: left;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 0 20px 40px #8d9bdf7d;
+
+}
+
+/* social */
+
+footer {
+    background: url(images/footer.png);
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.copy {
+    text-align: center;
+    padding: 200px;
+}
+
+/* footer */
+
+.button {
+    background-color: #4f6ae6;
+    padding: 15px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+/* button */

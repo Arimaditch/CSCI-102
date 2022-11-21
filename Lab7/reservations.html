@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <span>
+        <title>Pacific Trails - Reservations</title>
+    </span>
+    <link rel="stylesheet" href="style3.css">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<div id="wrapper">
+
+    <body>
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+        <nav>
+            <ul><li><a href="index.html">Home</a> </li>
+                <li><a href="yurts.html">Yurts</a> </li>
+                <li><a href="activities.html">Activities</a> </li>
+                <li><a href="reservations.html ">Reservations</a> </li>
+            </ul>
+        </nav>
+        <main>
+            <br>
+            <h2>Reservations at Pacific Trails</h2>
+
+            <form action="" method="POST" autocomplete>
+                <h2>Contact Us</h2>
+                <p>Required information is marked with an asterisk (*)</p>
+                <div class="label">First Name:</div> 
+                <input type="text" name="fName" id="fName" required>
+                <div class="clearfix"></div>
+        
+                <br><br>
+        
+                <div class="label">Last Name:</div> 
+                <input type="text" name="lName" id="lName" required>
+                <div class="clearfix"></div>
+                <br><br>
+        
+        
+                <div class="label">E-mail:</div> 
+                <input type="email" name="email" id="email" required>
+                <div class="cleafix"></div>
+                <br><br>
+        
+        
+                <div class="label">Phone:</div> 
+                <input type="tel" name="phone" id="phone">
+                <div class="clearfix"></div>
+                <br><br>
+
+                <div class="label">Arrival Date:</div> 
+                <input type="date" name="date" id="date">
+                <div class="clearfix"></div>
+                <br><br>
+
+                <div class="label">Nights:</div> 
+                <input type="options" name="nights" id="nights">
+                <div class="clearfix"></div>
+                <br><br> 
+                
+                <div class="label">Comments:</div>
+                <textarea name="" id="" cols="30" rows="6" required></textarea>
+                <div class="clearfix"></div>
+                <br><br>
+        
+                <div id="mySubmit"><input type="submit" value="Submit"></div>
+                <div class="clearfix"></div>
+        
+                
+            </form>
+            
+        </main>
+        <footer>
+            <!--Footer-->
+            Copyright &copy; 2018 Pacific Trails Resort
+            <br>
+            <a href="">jacob@schwendcloherty.com</a>
+            <script>
+                var date = document.lastModified;
+                document.write(date); 
+            </script>
+        </footer>
+    </body>
+</div>
+
+</html>

@@ -1,0 +1,41 @@
+/* style rule */
+/* selector and declaration */
+/* selector - body, h1-h6, p, main, footer */
+/* declaration {propertyname:value;} */
+body{
+    background-color: lavender;
+    color:#008000;
+
+}
+h1{
+    background-color: lavender;
+    color: #069420;
+}
+h2{
+    color: #00ccff
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+
+header{
+
+}
+p{
+
+}
+main{
+
+}
+footer{
+    
+}

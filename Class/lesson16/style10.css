@@ -1,0 +1,21 @@
+table, th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    
+    width: 80vw;
+
+}
+
+/* tr, th, td{
+    padding: 20px;
+} */
+/* css3 pseudo classes */
+
+tr:last-child{
+    color: red;
+}
+
+/* nth-of-type - even or odd */
+/*  */

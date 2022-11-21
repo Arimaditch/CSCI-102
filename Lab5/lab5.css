@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {box-sizing: border-box;}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    margin: 40px auto;
+    
+}
+
+#wrapper{
+    line-height: 200%;
+    width: 80%;
+    margin: 0 auto;
+    
+    background-image: url(background.jpg);
+    font-family: " 'Roboto', sans-serrif";
+}
+
+.button{
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #FF4F5A;
+    padding: 15px;
+    margin: 25px 0;
+    transition: all 0.5s;
+    color: white;
+    background-color: #FF4F5A;
+}
+
+.button:hover{ 
+    color: #FF4F5A;
+    background-color: #FFF;
+    font-weight: bold;
+}
+
+header {
+    width: 87%;
+    
+    position: absolute;
+    
+    
+}
+.logo {
+    width: 30%;
+    float: left; 
+}
+.logo img{
+    width: 120px;
+    background-image: url(logo.png);
+}
+nav{
+    text-align: center;
+    float: right;
+    width: 70%;
+   
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li a{
+    color: #FF4F5A;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    
+}
+
+.banner {
+    background-image: url(../Lab5/images/background.jpg);
+    height: 60vh;
+    /* height: 100vh; */
+    width: 100%;
+    background-size: contain; 
+}
+.banner-text {
+    width: 60%;
+    margin: 40px auto;
+    color: #FF4F5A;
+    text-align: center;
+    padding-top: 15%;
+}
+.banner h1{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.column{
+    flex: 50%;
+    padding: 10px;
+
+}
+
+.row{
+    display: flex;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.section-left{
+    float: left;
+    width: 40%;
+}
+.image-right{
+    float: right;
+    width: 50%;
+}
+.section-right{
+    float: right;
+    width: 40%;
+}
+.image-left{
+    float: left;
+    width: 50%;
+}
+.image-right img{
+    width: 100%;
+}
+.image-left img{
+    width: 100%;
+}
+
+.bottom{
+    float: left;
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+}
+
+.bottom img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: darkgrey ;
+    border-top: 5px solid #FF4F5A;
+    color: #fff;
+}

@@ -1,0 +1,100 @@
+/* 
+Author:
+Version:
+Date:
+Website: 
+*/
+
+/* Table of Content */
+/* 
+1. Google Font
+2. Body
+3. Wrapper
+4. Header
+5. Navigation
+6. Banner
+7. Main
+8. Footer
+ */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: 'Quicksand', sans-serif;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: mediumseagreen;
+    border: 1px solid black;
+    margin: 10px;
+}
+.box2 {
+    width: 150px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 10px;
+    border: 2px dashed black;
+}
+
+.sideleft{
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* float - left or right */
+    float:left;
+    height: 250px;
+    /* overflow - visible, hidden, auto scroll, scroll */
+    overflow: auto;
+}
+.sideright{
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: right;
+}
+
+/* clearfix
+clear left - right - both */
+
+.clearfix{
+    clear: both;
+}
+
+/* nav and logo */
+
+header{
+    width: 100%;
+
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+nav{
+    width: 65%;
+    float: right;
+}
+
+.line{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.line img{
+    width: 100px;
+}
+
+footer{
+    text-align: center;
+}

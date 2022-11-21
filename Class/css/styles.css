@@ -1,0 +1,93 @@
+/* style rule */
+/* selector and declaration */
+/* selector - body, h1-h6, p, main, footer */
+/* declaration {propertyname:value;} */
+
+
+/*
+ HTML element selector
+class selector
+id selector
+descendant (parent child) selector */
+
+/* <p id ="new"> text with id "new" </p> 
+USED ONLY ONCE, CLASS CAN BE USED MULTIPLE TIMES*/
+
+/* multiple selector
+
+h2,h1,.content,#para{
+    color: #fff
+}
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    
+}
+h2{
+    
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+
+header{
+
+}
+body{
+
+}
+p{
+
+}
+main{
+
+}
+footer{
+    
+}

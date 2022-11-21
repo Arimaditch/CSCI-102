@@ -1,0 +1,86 @@
+/* Author:
+Version 1.4
+Date: 10/10/22 */
+
+/* table of content 
+1 Body
+2 Wrapper
+3 Nav
+4 Banner
+5 Main
+6 Footer
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e2e1e0;
+}
+
+header img {
+
+    width: 100%;
+
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #05a081;
+}
+
+.banner {
+    /* background-image: url(../lesson10/images/hero.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../lesson10/images/hero.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-text {
+    width: 50%;
+    padding-top: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-text h2 {
+    color: #fff;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+/* gradients */
+.card {
+    width: 160px;
+    padding: 60px;
+    margin: 40px auto;
+    background-color: #fff;
+}
+
+.box{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.3);
+}
+
+.box1{
+    box-shadow: 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.box2{
+    background: linear-gradient(to right, pink 30%, blue);
+}
+
+.box3{
+    background: radial-gradient(green, red);
+}

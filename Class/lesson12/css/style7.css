@@ -1,0 +1,172 @@
+/* google fonts - fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+
+body {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.5); */
+    background-color: #f4f4f4;
+}
+
+/* header */
+header {
+    width: 80%;
+    padding: 20px 0;
+    position: absolute;
+    
+}
+.logo {
+    font-size: 40px;
+    font-weight: 500;
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+}
+nav {
+    text-align: center;
+    float: right;
+    width: 70%;
+    
+}
+/* nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #fff;
+} */
+
+
+/* standard navs */
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    /* float: left */
+
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: all 0.4s;
+}
+
+/* pseudo class - link visited, active, focus, hover */
+
+/* nav a:link{
+    color: red;
+}
+nav a:visited{
+    color: black;
+}
+nav a:active{
+    color: blue;
+}
+nav a:focus{
+    color: yellow;
+} */
+
+nav a:hover{
+    background-color: #05a081;
+    color: #fff;
+
+}
+
+
+/* clearfix */
+.clearfix {
+    clear: both;
+}
+/* banner */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero.jpg);
+    /* height: 60vh; */
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+}
+.banner-text {
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+main {
+    margin: 20px;
+}
+/* two column */
+.sideleft {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+.sideright {
+    width: 50%;
+    float: right;
+}
+.sideright img {
+    width: 100%;
+}
+footer {
+    padding: 80px;
+    text-align: center;
+    background-color: #05a081;
+    color: #fff;
+    /* For footer a's position of absolute */
+    position: relative;
+}
+
+.top {
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    color: #05a081;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    /* position - static, relative, fixed, absolute, sticky*/
+    /* position: relative; */
+    position: fixed;
+    /* position: absolute; */
+    bottom: 40px;
+    right: 100px;
+    transition: all 0.3s;
+
+}
+.top:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.8);
+    border-radius: 15px;
+}
+.button {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+.button2 {
+    padding: 10px;
+    color: #05a081;
+    text-decoration: none;
+    border: 3px solid #05a081;
+    font-weight: bold;
+}

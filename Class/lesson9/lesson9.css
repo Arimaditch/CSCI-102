@@ -1,0 +1,66 @@
+/* #wrapper{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px #000 ;
+} */
+/* 
+Author - 
+file version - 
+date - 
+website - 
+ */
+
+/* 
+Table of contents
+-fonts
+- body
+-wrapper
+-nav
+-banner
+-main
+-footer
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #e2e1e0;
+
+}
+
+header img{
+ width: 100%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px ;
+    color: #05a081;
+    font-weight: bold;
+}
+/* banner */
+.banner{
+    background-image: url(../lesson9/images/hero.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.banner-text{
+    width: 50%;
+    padding-top: 15%;
+    margin: 0 auto;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    
+    <!-- form attributes - action (where - PHP, ASP, JSP), method - Post & Get, id, autocomplete-->
+
+    <!-- form elements -text, email, password, date, tel, file, textarea, select - options(checkbox, radio) -->
+
+    <!-- element attributes - name, id, placeholder, required, readonly,  -->
+
+    <form action="/Class/forms/welcome.html" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+
+        <br><br>
+
+        <label for="file">Upload</label>
+        <input type="file" name="file" id="file">
+
+        <label for="gender">Gender</label>
+        M<input type="radio" name="n1" id="">
+        F<input type="radio" name="n1" id="">
+
+        <br><br>
+
+        <label for="remember">Remember Password</label>
+        <input type="checkbox" name="" id="">
+
+        <br><br>
+
+        <label for="City">City</label>
+        <select name="" id="">
+            <option value="">Default</option>
+            <option value="">Bellingham</option>
+            <option value="">Seattle</option>
+        </select>
+
+        <br><br>
+
+        <label for="comments">Comments</label><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type here mothafucka"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
