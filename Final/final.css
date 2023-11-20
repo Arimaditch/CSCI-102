@@ -1,0 +1,460 @@
+/* Contents */
+/* 
+- Universal 18
+Body 58 
+Header / Nav 68
+Main 115
+Footer 123
+- Page Specific 133
+Index 136
+Articles 207 
+Photos 251
+Forum 357
+About 359
+*/
+
+
+
+/* Universal */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.button {
+    background-color: #CC0000;
+    padding: 15px 15px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+.social a {
+    margin: 0 5px;
+
+}
+
+.social img {
+    max-width: 30px;
+    padding-top: 5px;
+}
+
+#wrapper {
+    line-height: 200%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.85)), url(media/background.jpg);
+    background-size: cover;
+}
+
+/* Header / Nav */
+
+header {
+    width: 100%;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+
+}
+
+nav {
+    float: right;
+    text-align: center;
+    width: 70%;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: #CC0000;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+
+
+}
+
+nav ul li a:hover {
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: darkgrey;
+    border-top: 10px solid #CC0000;
+    color: #fff;
+}
+
+
+/* Page Specific */
+
+
+/* Index */
+
+.banneri {
+    background-image: url(media/banner.jpg);
+    background-size: cover;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 45vh;
+}
+
+.banner-content {
+    float: left;
+    width: 35%;
+    padding-top: 15%;
+    padding-left: 15px;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.banner-content p {
+    color: #FFF;
+}
+
+.desc-left {
+    float: left;
+    width: 37.5%;
+    padding-top: 20px;
+    margin-left: 2.5%;
+
+}
+
+.vid-left {
+    float: left;
+    width: 57.5%;
+    padding-top: 20px;
+    margin-left: 2.5%;
+
+}
+
+.vid-left video {
+    max-width: 100%
+}
+
+
+.desc-right {
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.desc-right h1,
+.desc-left h1,
+.desc-right a,
+.desc-left p,
+.desc-right p {
+    padding-left: 10px;
+}
+
+.img-right {
+    float: right;
+    width: 57.5%;
+    margin-right: 2.5%;
+}
+
+.img-right img {
+    max-width: 100%;
+}
+
+/* Articles */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.boxa {
+
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    transition: all 0.3s;
+
+}
+
+.boxa:hover p {
+    color: #CC0000;
+}
+
+.boxa a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+.boxa img {
+    max-width: 100%;
+
+}
+
+.boxa:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.title p {
+    text-align: center;
+}
+
+/* Photos */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.left-button {
+    float: left;
+    padding-left: 25px;
+}
+
+.right-button {
+    float: right;
+    padding-right: 25px;
+}
+
+.boxp {
+    margin: 20px;
+    box-shadow: 0 20px 40px #8d9bdf7d;
+    float: left;
+    transition: all 0.3s;
+}
+
+.boxp a:hover {
+    color: #CC0000;
+}
+
+.boxp a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+.boxp a p {
+    text-align: center;
+}
+
+.boxp img {
+    max-width: 100%;
+
+}
+
+.bikeday h3 {
+    text-align: center;
+}
+
+/* forum */
+
+.bannerf {
+    background-image: url(media/bannerf.jpg);
+    background-size: cover;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 45vh;
+}
+
+.topics {
+    max-width: 100%;
+}
+
+.topics h3 {
+    padding-left: 15px;
+}
+
+.topics ul {
+    list-style-type: none;
+}
+
+.topics ul li {
+    padding: 15px;
+
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    width: fit-content;
+}
+
+.topics ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.topics ul li a:hover {
+    color: #CC0000;
+}
+
+/* about */
+
+.bannera {
+    background-image: url(media/bannera.jpg);
+    background-size: cover;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 45vh;
+}
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.boxab {
+
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    transition: all 0.3s;
+    box-shadow: 0 20px 40px #8d9bdf7d;
+}
+
+.boxab h3 {
+    text-align: center;
+}
+
+.boxab ul {
+    list-style: none;
+}
+
+.boxab ul li {
+    padding: 15px;
+}
+
+.boxab ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.boxab ul li a:hover {
+    color: #CC0000;
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 25px;
+    max-width: fit-content;
+
+}
+
+.boxab th,
+.boxab tr,
+.boxab td {
+    padding: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
